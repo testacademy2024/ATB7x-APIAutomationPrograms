@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ATB7x-APIAutomationPrograms">
+        <classes>
+            <class name="com.thetestingacademy.ex_28022026_CRUD.POST.BDDStylePOST">
+                <methods>
+                    <include name="test_bddPOST"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.ex_28022026_CRUD.POST.NonBDDStylePOST">
+                <methods>
+                    <include name="test_nonbddPOST"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

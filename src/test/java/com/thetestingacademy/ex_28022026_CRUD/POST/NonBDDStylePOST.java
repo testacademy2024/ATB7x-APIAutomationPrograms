@@ -5,24 +5,29 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.testng.annotations.Test;
 
 public class NonBDDStylePOST {
-    static RequestSpecification r= RestAssured.given();
-    public static void main(String[] args) {
-        String payload= "{\n" +
+    RequestSpecification requestSpecification;
+    ValidatableResponse validatableResponse;
+    Response response;
+    @Test
+    public void test_nonbddPOST() {
+        String payloadPOST= "{\n" +
                 "                    \"username\" : \"admin\",\n" +
                 "                    \"password\" : \"password123\"\n" +
                 "                }";
-        r.baseUri("https://restful-booker.herokuapp.com");
-        r.basePath("/auth");
-        r.contentType(ContentType.JSON).log().all().body(payload);
-                r.when().log().all().post();
-                r.then().log().all().statusCode(200);
+        requestSpecification.baseUri("https://restful-booker.herokuapp.com");
+        requestSpecification.basePath("/auth");
+        requestSpecification.contentType(ContentType.JSON).log().all();
+                requestSpecification.body(payloadPOST).log().all();
+        Response response=requestSpecification.when().post();
+        validatableResponse=response.then().log().all();
+                validatableResponse.statusCode(200);
 
-        Response response=r.when().post();
 
-        //Validatable Response
-        ValidatableResponse validatableResponse=response.then().log().all().statusCode(200);
+
+
 
 
     }
