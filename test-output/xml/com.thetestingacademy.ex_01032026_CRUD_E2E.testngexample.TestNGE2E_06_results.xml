@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB7x-APIAutomationPrograms"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.149">
+    <properties></properties>
+
+
+
+            <testcase
+                name="openide"
+                time="0.009"
+                classname="com.thetestingacademy.ex_01032026_CRUD_E2E.testngexample.TestNGE2E_06">
+            </testcase>
+            <testcase
+                name="machinestart"
+                time="0.140"
+                classname="com.thetestingacademy.ex_01032026_CRUD_E2E.testngexample.TestNGE2E_06">
+            </testcase>
+</testsuite>

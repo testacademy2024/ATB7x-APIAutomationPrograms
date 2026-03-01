@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB7x-APIAutomationPrograms"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.274">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_post"
+                time="7.274"
+                classname="com.thetestingacademy.ex_01032026_Assertions.Test_NGAssertions01">
+            </testcase>
+</testsuite>

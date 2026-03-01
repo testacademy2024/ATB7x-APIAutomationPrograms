@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB7x-APIAutomationPrograms"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.145">
+    <properties></properties>
+
+
+
+            <testcase
+                name="sanityRun"
+                time="0.145"
+                classname="com.thetestingacademy.ex_01032026_CRUD_E2E.testngexample.TestNGE2E_05">
+            </testcase>
+</testsuite>

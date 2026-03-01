@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB7x-APIAutomationPrograms"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.165">
+    <properties></properties>
+
+
+
+            <testcase
+                name="t1"
+                time="0.005"
+                classname="com.thetestingacademy.ex_01032026_CRUD_E2E.testngexample.TestNGE2E_04">
+            </testcase>
+            <testcase
+                name="t3"
+                time="0.006"
+                classname="com.thetestingacademy.ex_01032026_CRUD_E2E.testngexample.TestNGE2E_04">
+            </testcase>
+            <testcase
+                name="t2"
+                time="0.154"
+                classname="com.thetestingacademy.ex_01032026_CRUD_E2E.testngexample.TestNGE2E_04">
+            </testcase>
+</testsuite>
