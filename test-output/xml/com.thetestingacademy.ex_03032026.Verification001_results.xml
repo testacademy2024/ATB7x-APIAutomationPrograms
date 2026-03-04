@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB7x-APIAutomationPrograms"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.156">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verify_reponse"
+                time="0.156"
+                classname="com.thetestingacademy.ex_03032026.Verification001">
+            </testcase>
+</testsuite>
