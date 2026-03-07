@@ -1,5 +1,5 @@
 package com.thetestingacademy.pojo;
-
+//https://www.jsonschema2pojo.org/    json topojo converter
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
